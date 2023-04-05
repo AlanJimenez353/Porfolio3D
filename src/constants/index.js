@@ -12,13 +12,13 @@ import {
     tailwind,
     nodejs,
     mongodb,
+    sql,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    soFi,
+    freelance,
+    hsbc,
     carrent,
     jobit,
     tripguide,
@@ -53,10 +53,6 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Social Media",
-      icon: creator,
-    },
   ];
   
   const technologies = [
@@ -71,10 +67,6 @@ import {
     {
       name: "JavaScript",
       icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
     },
     {
       name: "React JS",
@@ -93,8 +85,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "SQL",
+      icon: sql,
     },
     {
       name: "Three JS",
@@ -105,10 +97,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,57 +104,44 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Freelance Developer",
+      company_name: "Freelance",
+      icon: freelance,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2020 - October 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js - Java and C++ .",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "FullStack Developer",
+      company_name: "HSBC",
+      icon: hsbc,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Nov 2021 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Fullstack Developer for digital banking product.",
+        "Development and maintenance of web and mobile application of HSBC argentina.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Frontend development - React - Node.js - Javascript - React Hooks - Redux - Redux Sagas - Router.",
+        "Backend development - Java - MSSQL",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "FullStack Developer",
+      company_name: "SoFi - American online personal finance company and online bank.",
+      icon: soFi,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Oct 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Fullstack Developer for digital banking product.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality banking products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Frontend development - React - Node.js - Javascript- React Hooks - Redux -Redux Sagas - Router.",
+        "Backend development - Java - MSSQL - Docker..",
       ],
     },
+  
   ];
   
   const testimonials = [
