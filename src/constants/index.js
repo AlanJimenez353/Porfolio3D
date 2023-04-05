@@ -15,13 +15,13 @@ import {
     sql,
     git,
     figma,
-    docker,
+    linux,
     soFi,
     freelance,
     hsbc,
-    carrent,
-    jobit,
-    tripguide,
+    lightsOut,
+    chatRoom,
+    java,
     threejs,
   } from "../assets";
   
@@ -97,8 +97,8 @@ import {
       icon: git,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "linux",
+      icon: linux,
     },
   ];
   
@@ -110,7 +110,7 @@ import {
       iconBg: "#383E56",
       date: "March 2020 - October 2021",
       points: [
-        "Developing and maintaining web applications using React.js - Java and C++ .",
+        "Developing and maintaining applications using React.js - Java and C++ .",
       ],
     },
     {
@@ -173,68 +173,73 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Stock Manager",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Stock Manager is designed to simplify and optimize the management of your products. Our application offers a reliable and secure platform for users to manage their products, inventories, and orders.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Springboot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: java,
+      source_code_link: "https://github.com/AlanJimenez353/ProductAPI-MongoDB-SpringBoot",
+    },
+    {
+      name: "React E-commerce",
+      description:
+        "Music Event Tickets is a dynamic web platform designed to make the process of buying tickets for your favorite concerts and music events easier and more efficient. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "NodeJs",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: lightsOut,
+      source_code_link: "https://github.com/AlanJimenez353/ECommerce-React",
     },
     {
-      name: "Job IT",
+      name: "ChatRoom- MobileApp",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "ChatRoom is a chat application built using React Native and Firebase authentication, designed to simplify communication for users about diferent toppics.",
       tags: [
         {
-          name: "react",
+          name: "react-Native",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Redux ",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Firebase ",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Expo ",
+          color: "red-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: chatRoom,
+      source_code_link: "https://github.com/AlanJimenez353/AndroidApp-ReactNative",
     },
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects };

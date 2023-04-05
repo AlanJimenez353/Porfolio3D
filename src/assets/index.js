@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import linux from "./tech/linux.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -24,9 +24,9 @@ import threejs from "./tech/threejs.svg";
 import soFi from "./company/soFi.png"
 import freelance from "./company/freelance.png"
 import hsbc from "./company/hsbc.png"
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import lightsOut from "./lightsOut.png";
+import chatRoom from "./chatRoom.jpeg";
+import java from "./java.png";
 
 export {
   logo,
@@ -38,7 +38,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  linux,
   figma,
   git,
   html,
@@ -54,7 +54,7 @@ export {
   soFi,
   freelance,
   hsbc,
-  carrent,
-  jobit,
-  tripguide,
+  lightsOut,
+  chatRoom,
+  java,
 };
