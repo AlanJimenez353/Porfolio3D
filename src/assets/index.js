@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import linux from "./tech/linux.png";
+import javaDev from "./tech/javaDev.png"
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -19,6 +20,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
+import python from "./tech/python.jpg";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import soFi from "./company/soFi.png"
@@ -27,6 +29,10 @@ import hsbc from "./company/hsbc.png"
 import lightsOut from "./lightsOut.png";
 import chatRoom from "./chatRoom.jpeg";
 import java from "./java.png";
+import Lego from "./Lego.jpg";
+import VideoGenerator from "./VideoGenerator.png"
+import TwitterBot from "./TwitterBot.png"
+import Blockchain from "./Blockchain.png"
 
 export {
   logo,
@@ -49,12 +55,18 @@ export {
   reactjs,
   redux,
   tailwind,
+  python,
   typescript,
   threejs,
   soFi,
   freelance,
   hsbc,
   lightsOut,
+  javaDev,
   chatRoom,
   java,
+  TwitterBot,
+  Lego,
+  VideoGenerator,
+  Blockchain,
 };

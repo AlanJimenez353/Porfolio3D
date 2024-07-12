@@ -10,19 +10,25 @@ import {
     reactjs,
     redux,
     tailwind,
+    python,
     nodejs,
     mongodb,
     sql,
     git,
     figma,
     linux,
+    javaDev,
     soFi,
     freelance,
     hsbc,
     lightsOut,
     chatRoom,
     java,
+    Lego,
+    VideoGenerator,
+    TwitterBot,
     threejs,
+    Blockchain,
   } from "../assets";
   
   export const navLinks = [
@@ -32,7 +38,15 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Work Experience",
+    },
+    {
+      id: "tech",
+      title: "Tech Stack",
+    },
+    {
+      id: "works",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -100,6 +114,14 @@ import {
       name: "linux",
       icon: linux,
     },
+    {
+      name: "Java",
+      icon: javaDev,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
   ];
   
   const experiences = [
@@ -115,7 +137,7 @@ import {
     },
     {
       title: "FullStack Developer",
-      company_name: "HSBC",
+      company_name: "HSBC ",
       icon: hsbc,
       iconBg: "#E6DEDD",
       date: "Nov 2021 - April 2023",
@@ -123,22 +145,22 @@ import {
         "Fullstack Developer for digital banking product.",
         "Development and maintenance of web and mobile application of HSBC argentina.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Frontend development - React - Node.js - Javascript - React Hooks - Redux - Redux Sagas - Router.",
-        "Backend development - Java - MSSQL",
+        "Frontend development: React - Node.js - Javascript - React Hooks - Redux - Redux Sagas - Redux Router.",
+        "Backend development: Java - MSSQL - Docker- Spring Boot",
       ],
     },
     {
       title: "FullStack Developer",
-      company_name: "SoFi - American online personal finance company and online bank.",
+      company_name: "Galileo Financial Technologies - American online finance company and bank.",
       icon: soFi,
       iconBg: "#E6DEDD",
-      date: "Oct 2021 - Present",
+      date: "April 2023 - Present",
       points: [
         "Fullstack Developer for digital banking product.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality banking products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Frontend development - React - Node.js - Javascript- React Hooks - Redux -Redux Sagas - Router.",
-        "Backend development - Java - MSSQL - Docker..",
+        "Frontend development: React - Node.js - Javascript - React Hooks - Redux -Redux Sagas - Router.",
+        "Backend development: Java - MSSQL - Docker - Oracle Database - Microservices - Spring Boot",
       ],
     },
   
@@ -173,9 +195,101 @@ import {
   
   const projects = [
     {
+      name: "AI Lego TwitterBot",
+      description:
+        "This project uses a Python script to automatically generate and upload tweets twice a day. The tweets consist of randomly generated LEGO images using ChatGPT and DALL·E, demonstrating the ability to integrate artificial intelligence into social media in a creative and automated way",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ChatGPT API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "DALL·E",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Twitter API",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: Lego,
+      source_code_link: "https://github.com/AlanJimenez353/TwitterBot-LegoIA",
+    },
+    {
+      name: "News-to-Video Script",
+      description:
+        "This Python script automates the process of creating videos from news articles, incorporating AI-generated images using Dall-e, subtitles, and synthesized audio from ElevenLabs API to produce engaging multimedia content.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ChatGPT API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "DALL·E",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "ElevenLabs",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: VideoGenerator,
+      source_code_link: "https://github.com/AlanJimenez353/News-To-Video-Script",
+    },
+    {
+      name: "Blockchain",
+      description:
+        "This project is a blockchain simulator implemented in Java. The program allows users to register, log in, and perform various blockchain-related operations such as transactions and profile viewing. Additionally, it includes a special administrative menu for advanced functions.",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Jackson",
+          color: "green-text-gradient",
+        }
+      ],
+      image: Blockchain,
+      source_code_link: "https://github.com/AlanJimenez353/Java-Blockchain",
+    },
+    {
+      name: "YearPorcetage TwitterBot",
+      description:
+        "This project uses a Python script to automatically generate and upload tweets each time the percentage of the year progresses by 1%, and creates a video for Social media proposes",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PIL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MoviePy",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Twitter API",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: TwitterBot,
+      source_code_link: "https://github.com/AlanJimenez353/YearPorcetageTwitterBot/tree/master",
+    },
+    {
       name: "Stock Manager",
       description:
-        "Stock Manager is designed to simplify and optimize the management of your products. Our application offers a reliable and secure platform for users to manage their products, inventories, and orders.",
+        "Stock Manager is designed to simplify and optimize the management of your products. The application offers a reliable and secure platform for users to manage their products, inventories, and orders.The user-friendly interface makes it easy to add, edit, and remove products, set notifications for low stock levels",
       tags: [
         {
           name: "Java",
@@ -193,28 +307,8 @@ import {
       image: java,
       source_code_link: "https://github.com/AlanJimenez353/ProductAPI-MongoDB-SpringBoot",
     },
-    {
-      name: "React E-commerce",
-      description:
-        "Music Event Tickets is a dynamic web platform designed to make the process of buying tickets for your favorite concerts and music events easier and more efficient. ",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "NodeJs",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: lightsOut,
-      source_code_link: "https://github.com/AlanJimenez353/ECommerce-React",
-    },
-    {
+    
+    /*{
       name: "ChatRoom- MobileApp",
       description:
         "ChatRoom is a chat application built using React Native and Firebase authentication, designed to simplify communication for users about diferent toppics.",
@@ -238,7 +332,30 @@ import {
       ],
       image: chatRoom,
       source_code_link: "https://github.com/AlanJimenez353/AndroidApp-ReactNative",
+    },*/
+    /*,{
+      name: "React E-commerce",
+      description:
+        "Music Event Tickets is a dynamic web platform designed to make the process of buying tickets for your favorite concerts and music events easier and more efficient. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NodeJs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lightsOut,
+      source_code_link: "https://github.com/AlanJimenez353/ECommerce-React",
     },
+    */
+    
    
   ];
   
