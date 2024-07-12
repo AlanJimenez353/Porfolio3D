@@ -7,7 +7,7 @@
 
 ## Construido con:
 -React
--Tree.js
+-Three.js
 -Tailwind.css
 -Vite
 
