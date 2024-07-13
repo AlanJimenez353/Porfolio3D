@@ -64,7 +64,7 @@ export {
   hsbc,
   lightsOut,
   javaDev,
-  Portfolio,
+  portfolio,
   chatRoom,
   java,
   TwitterBot,

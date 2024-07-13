@@ -18,7 +18,7 @@ import {
     figma,
     linux,
     javaDev,
-    Portfolio,
+    portfolio,
     soFi,
     freelance,
     hsbc,
@@ -230,7 +230,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "ChatGPT API",
+          name: "OpenAI API",
           color: "green-text-gradient",
         },
         {
@@ -311,7 +311,7 @@ import {
     {
       name: "Porfolio 3D",
       description:
-        "This platform offers an impressive and highly interactive visual experience to showcase my programming projects. The integration of Three.js enables real-time rendering of 3D graphics, creating a dynamic and engaging presentation. Tailwind CSS facilitates the design of a modern and responsive user interface, while Vite ensures fast and efficient site loading. ",
+        "This platform offers an interactive visual experience to showcase my programming projects. The integration of Three.js enables real-time rendering of 3D graphics. Tailwind CSS facilitates the design of a modern and responsive user interface, while Vite ensures fast and efficient site loading. ",
       tags: [
         {
           name: "React",
@@ -327,21 +327,19 @@ import {
         },
         {
           name: "Vite",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
         {
           name: "Vercel",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
-      image: Portfolio,
+      image: portfolio,
       source_code_link: "https://github.com/AlanJimenez353/Porfolio3D",
-    },
-    
-    /*{
+    },{
       name: "ChatRoom- MobileApp",
       description:
-        "ChatRoom is a chat application built using React Native and Firebase authentication, designed to simplify communication for users about diferent toppics.",
+        "ChatRoom is a chat application built using React Native and Firebase authentication, designed to simplify communication for users about diferent toppics.Firebase authentication is employed to offer a secure and reliable login process, allowing users to create accounts and sign in with ease.",
       tags: [
         {
           name: "react-Native",
@@ -362,7 +360,7 @@ import {
       ],
       image: chatRoom,
       source_code_link: "https://github.com/AlanJimenez353/AndroidApp-ReactNative",
-    },*/
+    },
     /*,{
       name: "React E-commerce",
       description:
