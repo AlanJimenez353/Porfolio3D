@@ -120,10 +120,6 @@ import {
       icon: javaDev,
     },
     {
-      name: "portfolio",
-      icon: Portfolio,
-    },
-    {
       name: "python",
       icon: python,
     },
