@@ -10,6 +10,7 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import linux from "./tech/linux.png";
 import javaDev from "./tech/javaDev.png"
+import portfolio from "./Portfolio.png"
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -63,6 +64,7 @@ export {
   hsbc,
   lightsOut,
   javaDev,
+  Portfolio,
   chatRoom,
   java,
   TwitterBot,

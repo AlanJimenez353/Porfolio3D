@@ -18,6 +18,7 @@ import {
     figma,
     linux,
     javaDev,
+    Portfolio,
     soFi,
     freelance,
     hsbc,
@@ -117,6 +118,10 @@ import {
     {
       name: "Java",
       icon: javaDev,
+    },
+    {
+      name: "portfolio",
+      icon: Portfolio,
     },
     {
       name: "python",
@@ -306,6 +311,35 @@ import {
       ],
       image: java,
       source_code_link: "https://github.com/AlanJimenez353/ProductAPI-MongoDB-SpringBoot",
+    },
+    {
+      name: "Porfolio 3D",
+      description:
+        "This platform offers an impressive and highly interactive visual experience to showcase my programming projects. The integration of Three.js enables real-time rendering of 3D graphics, creating a dynamic and engaging presentation. Tailwind CSS facilitates the design of a modern and responsive user interface, while Vite ensures fast and efficient site loading. ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Vercel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Portfolio,
+      source_code_link: "https://github.com/AlanJimenez353/Porfolio3D",
     },
     
     /*{
