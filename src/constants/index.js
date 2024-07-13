@@ -263,52 +263,6 @@ import {
       source_code_link: "https://github.com/AlanJimenez353/Java-Blockchain",
     },
     {
-      name: "YearPorcetage TwitterBot",
-      description:
-        "This project uses a Python script to automatically generate and upload tweets each time the percentage of the year progresses by 1%, and creates a video for Social media proposes",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "PIL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MoviePy",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Twitter API",
-          color: "blue-text-gradient",
-        }
-      ],
-      image: TwitterBot,
-      source_code_link: "https://github.com/AlanJimenez353/YearPorcetageTwitterBot/tree/master",
-    },
-    {
-      name: "Stock Manager",
-      description:
-        "Stock Manager is designed to simplify and optimize the management of your products. The application offers a reliable and secure platform for users to manage their products, inventories, and orders.The user-friendly interface makes it easy to add, edit, and remove products, set notifications for low stock levels",
-      tags: [
-        {
-          name: "Java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Springboot",
-          color: "green-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: java,
-      source_code_link: "https://github.com/AlanJimenez353/ProductAPI-MongoDB-SpringBoot",
-    },
-    {
       name: "Porfolio 3D",
       description:
         "This platform offers an interactive visual experience to showcase my programming projects. The integration of Three.js enables real-time rendering of 3D graphics. Tailwind CSS facilitates the design of a modern and responsive user interface, while Vite ensures fast and efficient site loading. ",
@@ -336,7 +290,54 @@ import {
       ],
       image: portfolio,
       source_code_link: "https://github.com/AlanJimenez353/Porfolio3D",
-    },{
+    },
+    {
+      name: "Stock Manager",
+      description:
+        "Stock Manager is designed to simplify and optimize the management of your products. The application offers a reliable and secure platform for users to manage their products, inventories, and orders.The user-friendly interface makes it easy to add, edit, and remove products, set notifications for low stock levels",
+      tags: [
+        {
+          name: "Java",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Springboot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: java,
+      source_code_link: "https://github.com/AlanJimenez353/ProductAPI-MongoDB-SpringBoot",
+    },
+    {
+      name: "YearPorcetage TwitterBot",
+      description:
+        "This project uses a Python script to automatically generate and upload tweets each time the percentage of the year progresses by 1%, and creates a video for Social media proposes",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PIL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MoviePy",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Twitter API",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: TwitterBot,
+      source_code_link: "https://github.com/AlanJimenez353/YearPorcetageTwitterBot/tree/master",
+    },
+   {
       name: "ChatRoom- MobileApp",
       description:
         "ChatRoom is a chat application built using React Native and Firebase authentication, designed to simplify communication for users about diferent toppics.Firebase authentication is employed to offer a secure and reliable login process, allowing users to create accounts and sign in with ease.",
